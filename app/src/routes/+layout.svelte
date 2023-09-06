@@ -29,7 +29,7 @@
 
 <AppShell slotSidebarLeft="bg-surface-500/5 w-0">
 	<svelte:fragment slot="header">
-		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+		<AppBar background="bg-inherit" gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
 					<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
@@ -41,7 +41,7 @@
 							</svg>
 						</span>
 					</button>
-					<strong class="text-xl uppercase">Jachio</strong>
+					<h2 class="h2 uppercase bg-clip-text text-transparent bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">Jachio</h2>
 				</div>
 			</svelte:fragment>
 			<Navigation vertical={false} />
