@@ -20,7 +20,16 @@
 	<nav class="list-nav p-4">
 		<ul>
 			{#each navItems as navItem}
-				<li><a on:click={drawerClose} href={navItem.href} class:variant-filled={$page.url.pathname === navItem.href}>{navItem.label}</a></li>
+				<li>
+					<a
+						on:click={drawerClose}
+						href={navItem.href}
+						class="text-xl mb-4"
+						class:bg-gradient-to-br={$page.url.pathname === navItem.href}
+						class:variant-gradient-secondary-tertiary={$page.url.pathname === navItem.href}
+						>{navItem.label}</a
+					>
+				</li>
 			{/each}
 		</ul>
 	</nav>
@@ -34,7 +43,8 @@
 					<a
 						on:click={drawerClose}
 						class="btn btn-primary"
-						class:variant-filled={$page.url.pathname === navItem.href}
+						class:bg-gradient-to-br={$page.url.pathname === navItem.href}
+						class:variant-gradient-secondary-tertiary={$page.url.pathname === navItem.href}
 						href={navItem.href}>{navItem.label}</a
 					>
 				</li>
