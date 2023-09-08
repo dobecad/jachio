@@ -68,7 +68,6 @@
 	</svelte:fragment>
 
 	<svelte:fragment slot="sidebarLeft">
-		<Navigation vertical={true} />
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
