@@ -1,7 +1,7 @@
 <script lang="ts">
     const mediaItems: {label: string; href: string; }[] = [
         { label: "Github", href: "https://github.com/dobecad"},
-        { label: "Email", href: "mailto@jacemanthespaceman@gmail.com"}
+        { label: "Email", href: "mailto:jacemanthespaceman@gmail.com"}
     ];
 </script>
 
