@@ -1,0 +1,1 @@
+<button class="bg-slate-500 rounded-full p-2 text-red-800 hover:text-slate-100 hover:bg-slate-800">Contact Me</button>
