@@ -1,7 +1,8 @@
 <script>
+	import About from '$lib/components/About.svelte';
 	import Education from '$lib/components/Education.svelte';
 	import Experience from '$lib/components/Experience.svelte';
-import Header from '$lib/components/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 	import History from '$lib/components/History.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
@@ -22,15 +23,18 @@ import Header from '$lib/components/Header.svelte';
 	<div class="pt-20">
 		<Projects />
 	</div>
-    <div class="pt-40">
-        <History />
-    </div>
-    <div class="pt-40">
-        <Experience />
-    </div>
-    <div class="pt-40">
-        <Education />
-    </div>
+	<div class="pt-40">
+		<History />
+	</div>
+	<div class="pt-40">
+		<Experience />
+	</div>
+	<div class="pt-40">
+		<Education />
+	</div>
+	<div class="pt-40">
+		<About />
+	</div>
 </div>
 
 <style>
