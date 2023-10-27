@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
+	import History from '$lib/components/History.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 </script>
@@ -13,12 +14,15 @@
 			<Intro />
 		</div>
 	</div>
-	<div class="animate-absolute bounce w-full -translate-y-20 flex justify-center items-center">
+	<div class="bounce w-full -translate-y-20 flex justify-center items-center">
 		<img src="arrow.svg" alt="down arrow" class="w-16 h-16 animate-bounce" />
 	</div>
-	<div>
+	<div class="pt-20">
 		<Projects />
 	</div>
+    <div class="pt-40">
+        <History />
+    </div>
 </div>
 
 <style>
