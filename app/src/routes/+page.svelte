@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/components/About.svelte';
+	import Cursor from '$lib/components/Cursor.svelte';
 	import Education from '$lib/components/Education.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import Header from '$lib/components/Header.svelte';
@@ -7,6 +8,8 @@
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 </script>
+
+<!-- <Cursor /> -->
 
 <div class="container mx-auto relative">
 	<div class="pt-4 absolute w-full">
