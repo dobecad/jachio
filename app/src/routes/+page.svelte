@@ -38,6 +38,7 @@
 	<div class="pt-40">
 		<About />
 	</div>
+    <div class="pb-40" />
 </div>
 
 <style>

@@ -7,7 +7,7 @@
     <Sectionname text={"About"} />
 </div>
 
-<div class="flex justify-between">
+<div class="flex justify-center">
     <img src="BlackHole2.png" alt="logo" class="w-80 h-80">
     <div class="grid grid-rows-3 pl-80 text-xl">
         <div class="col-span-2">My heart beats for simplicity, and I channel that passion into crafting software that's here to make your life a whole lot easier.</div>

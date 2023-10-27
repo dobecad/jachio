@@ -12,7 +12,7 @@
 <hr class="opacity-50" />
 <div class="flex justify-between pt-4">
     <div class="text-2xl">{title}</div>
-    <ul class="list-disc w-1/3 pb-2">
+    <ul class="list-disc w-1/2 pb-2">
         {#each bulletpoints as bulletpoint}
             <li class="text-xl">{bulletpoint}</li>
         {/each}

@@ -7,7 +7,18 @@
 			name: 'U.S. Government',
 			dates: '2018 - 2023',
 			title: 'Software and DevOps Engineer',
-			bulletpoints: ['Hello World!', 'Its a me']
+			bulletpoints: [
+				'Engineered an authentication and authorization solution that promoted the usage of an agency-wide tool by 1300%',
+				'Architected and implemented a custom CI/CD framework using Packer and Ansible for creating preconfigured Virtual Machine templates in a version controlled manner for multiple cloud providers',
+                'Implemented a Terraform and Ansible solution for creating Highly Available Kubernetes clusters for customers. Decreased cluster provisioning time from an hour to 5 minutes',
+                'Independently architected and implemented a machine learning based application that leveraged Optical Character Recognition to authorize information sent across domains',
+                'Worked closely with customers to identify and resolve issues with their Kubernetes clusters',
+                'Responsible for architecting, prototyping, and documenting the services necessary to provision new Kubernetes clusters within a new datacenter',
+                'Developed Ansible playbooks to both harden and ensure compliance across Virtual Machines in multiple cloud providers',
+                'Developed custom development environments on Coder to help other developers have a consistent and similar development environment. Greatly improved with on-boarding new developers to the team',
+                'Regularly participated in daily code reviews with other core maintainers',
+                'Integrated an alternative serialization library to an existing streaming service code base to speed up serialization by up to ten times the current solution',
+			]
 		}
 	];
 </script>
