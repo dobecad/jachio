@@ -1,5 +1,6 @@
 <script>
-	import Header from '$lib/components/Header.svelte';
+	import Experience from '$lib/components/Experience.svelte';
+import Header from '$lib/components/Header.svelte';
 	import History from '$lib/components/History.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
@@ -22,6 +23,9 @@
 	</div>
     <div class="pt-40">
         <History />
+    </div>
+    <div class="pt-40">
+        <Experience />
     </div>
 </div>
 

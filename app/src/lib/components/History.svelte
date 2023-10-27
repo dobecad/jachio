@@ -12,7 +12,7 @@
 	];
 </script>
 
-<div class="flex justify-center text-8xl">
+<div class="flex justify-center text-8xl pb-4">
 	<Sectionname text={'History'} />
 </div>
 
