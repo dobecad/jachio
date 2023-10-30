@@ -64,7 +64,7 @@
 		<div>Engineer</div>
 	</div>
 	<div class="pt-20 text-4xl text-center">
-		<span>(Also known as </span><span class="text-red-600">J</span><span>ace)</span>
+		<span>(also known as </span><span class="text-red-600">J</span><span>ace)</span>
 	</div>
 </div>
 
