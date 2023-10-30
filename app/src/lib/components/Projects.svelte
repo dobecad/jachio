@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Project from './Project.svelte';
-	import Sectionname from './Sectionname.svelte';
+	import Sectionname from './StyledWord.svelte';
 	const projects: { img: string; name: string; description: string }[] = [
 		{
 			img: 'BlackHole2.png',

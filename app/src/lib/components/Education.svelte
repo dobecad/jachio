@@ -1,6 +1,6 @@
 <script lang="ts">
 	import EducationEntry from './EducationEntry.svelte';
-	import Sectionname from './Sectionname.svelte';
+	import Sectionname from './StyledWord.svelte';
 
 	const education: { name: string; dates: string; degree: string; minor_or_focus: string }[] = [
 		{

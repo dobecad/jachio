@@ -1,5 +1,5 @@
 <script>
-	import Sectionname from "./Sectionname.svelte";
+	import Sectionname from "./StyledWord.svelte";
 
 </script>
 

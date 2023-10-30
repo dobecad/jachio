@@ -1,6 +1,6 @@
 <script lang="ts">
 	import HistoryEntry from './HistoryEntry.svelte';
-	import Sectionname from './Sectionname.svelte';
+	import Sectionname from './StyledWord.svelte';
 
 	const history: { name: string; dates: string; title: string; bulletpoints: string[] }[] = [
 		{

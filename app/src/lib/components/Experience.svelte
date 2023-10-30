@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ExperienceEntry from './ExperienceEntry.svelte';
-	import Sectionname from './Sectionname.svelte';
+	import Sectionname from './StyledWord.svelte';
 
 	const experience: { img: string; name: string }[] = [
 		{ img: 'BlackHole2.png', name: 'Rust' },
