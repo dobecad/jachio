@@ -71,7 +71,7 @@
 <style>
 	#adjectives::after {
 		content: '|';
-		animation: blink-caret 0.75s step-end infinite;
+		animation: blink-caret 0.95s step-end infinite;
 	}
 
 	@keyframes blink-caret {
@@ -79,7 +79,7 @@
 		to {
 			opacity: 0;
 		}
-		50% {
+		60% {
 			opacity: 100;
 		}
 	}
