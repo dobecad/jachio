@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        starPulse: 'starPulse 10s linear infinite',
+      }
+    },
   },
   plugins: [],
 }

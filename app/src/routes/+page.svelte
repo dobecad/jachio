@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/components/About.svelte';
+	import Background from '$lib/components/Background.svelte';
 	import Cursor from '$lib/components/Cursor.svelte';
 	import Education from '$lib/components/Education.svelte';
 	import Experience from '$lib/components/Experience.svelte';
@@ -10,8 +11,11 @@
 </script>
 
 <!-- <Cursor /> -->
+<div class="w-full h-screen absolute z-0">
+	<Background />
+</div>
 
-<div class="container mx-auto relative">
+<div class="container mx-auto relative z-1">
 	<div class="pt-4 absolute w-full">
 		<Header />
 	</div>
@@ -20,7 +24,7 @@
 			<Intro />
 		</div>
 	</div>
-	<div class="bounce w-full -translate-y-20 flex justify-center items-center">
+	<div class="w-full -translate-y-20 flex justify-center items-center">
 		<img src="arrow.svg" alt="down arrow" class="w-16 h-16 animate-bounce" />
 	</div>
 	<div class="pt-20">
@@ -40,18 +44,3 @@
 	</div>
     <div class="pb-40" />
 </div>
-
-<style>
-	@keyframes bounce {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		40% {
-			transform: translateY(-30px);
-		}
-		60% {
-			transform: translateY(-15px);
-		}
-	}
-</style>
