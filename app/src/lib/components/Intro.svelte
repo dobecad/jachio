@@ -19,10 +19,10 @@
 		let isDeleting = false;
 		let typingSpeed = 100;
 		let pauseDuration = 1000;
+		const textAnimation = document.getElementById('adjectives');
 
         
 		function animateText() {
-            const textAnimation = document.getElementById('adjectives');
 			const currentWord = words[wordIndex];
 			if (isDeleting) {
 				if (textAnimation) {
@@ -59,13 +59,13 @@
 		<p id="greeting" class="text-center">Hi, I'm</p>
 	</div>
 	<div class="inline-block text-8xl text-center min-w-full">
-		<StyledWord text="Jace"/>
+		<StyledWord text="Just"/>
 		<div>A</div>
 		<span>C<span id="adjectives" /></span>
 		<div>Engineer</div>
 	</div>
-	<div class="pt-20 text-4xl text-center">
-		<span>(also known as </span><span class="text-red-600">J</span><span>ace)</span>
+	<div class="pt-28 text-4xl text-center">
+		<span>But you can just call me </span><StyledWord text="Jace" />
 	</div>
 </div>
 
