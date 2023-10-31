@@ -54,7 +54,7 @@
 </script>
 
 <div class="h-max w-full">
-	<div class="text-6xl">
+	<div class="text-6xl pb-4">
 		<p id="greeting" class="text-center">Hi, I'm</p>
 	</div>
 	<div class="inline-block text-8xl text-center min-w-full">
