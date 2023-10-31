@@ -3,8 +3,8 @@
 
 </script>
 
-<div class="flex w-full justify-center text-8xl pb-8">
-    <Sectionname text={"About"} />
+<div id="About" class="flex w-full justify-center text-8xl pb-8">
+    <a href="#About"><Sectionname text={"About"} /></a>
 </div>
 
 <div class="lg:grid lg:grid-cols-2">

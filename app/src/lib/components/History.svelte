@@ -23,8 +23,8 @@
 	];
 </script>
 
-<div class="flex justify-center text-8xl pb-4">
-	<Sectionname text={'History'} />
+<div id="History" class="flex justify-center text-8xl pb-4">
+	<a href="#History"><Sectionname text={'History'} /></a>
 </div>
 
 <div class="w-full">

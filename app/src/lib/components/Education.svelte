@@ -18,8 +18,8 @@
 	];
 </script>
 
-<div class="flex justify-center text-8xl">
-	<Sectionname text="Education" />
+<div id="Education" class="flex justify-center text-8xl">
+	<a href="#Education"><Sectionname text="Education" /></a>
 </div>
 
 <div class="w-full pt-4">

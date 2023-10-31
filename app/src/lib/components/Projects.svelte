@@ -12,8 +12,8 @@
 	];
 </script>
 
-<div class="flex justify-center text-8xl">
-	<Sectionname text={'Projects'} />
+<div id="Projects" class="flex justify-center text-8xl">
+	<a href="#Projects"><Sectionname text={'Projects'} /></a>
 </div>
 
 <div id="projects" class="flex justify-center pt-40 w-full">

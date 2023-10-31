@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import StyledWord from './StyledWord.svelte';
 
     let showName = true;
 
@@ -58,7 +59,7 @@
 		<p id="greeting" class="text-center">Hi, I'm</p>
 	</div>
 	<div class="inline-block text-8xl text-center min-w-full">
-		<span class="text-red-600">J</span><span>ust</span>
+		<StyledWord text="Jace"/>
 		<div>A</div>
 		<span>C<span id="adjectives" /></span>
 		<div>Engineer</div>

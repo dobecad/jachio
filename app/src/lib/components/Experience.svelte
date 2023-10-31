@@ -18,8 +18,8 @@
 	];
 </script>
 
-<div class="flex justify-center w-full text-8xl pb-4">
-	<Sectionname text="Experience" />
+<div id="Experience" class="flex justify-center w-full text-8xl pb-4">
+	<a href="#Experience"><Sectionname text="Experience" /></a>
 </div>
 
 <div class="w-full pt-4 grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-8 justify-items-center">
