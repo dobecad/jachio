@@ -19,28 +19,28 @@
 	<div class="pt-4 absolute w-full">
 		<Header />
 	</div>
-	<div class="flex justify-center items-center min-h-screen">
+	<section class="flex justify-center items-center min-h-screen">
 		<div class="relative">
 			<Intro />
 		</div>
-	</div>
+	</section>
 	<div class="w-full -translate-y-20 flex justify-center items-center">
 		<img src="arrow.svg" alt="down arrow" class="w-16 h-16 animate-bounce" />
 	</div>
-	<div class="pt-20">
+	<section class="pt-20">
 		<Projects />
-	</div>
-	<div class="pt-40">
+	</section>
+	<section class="pt-40">
 		<History />
-	</div>
-	<div class="pt-40">
+	</section>
+	<section class="pt-40">
 		<Experience />
-	</div>
-	<div class="pt-40">
+	</section>
+	<section class="pt-40">
 		<Education />
-	</div>
-	<div class="pt-40">
+	</section>
+	<section class="pt-40">
 		<About />
-	</div>
+	</section>
     <div class="pb-40" />
 </div>
