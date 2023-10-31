@@ -40,7 +40,8 @@
             div.classList.add('w-4');
             div.classList.add('h-4');
             div.classList.add('absolute');
-            div.classList.add('animate-starPulse');
+			div.classList.add('opacity-25');
+            // div.classList.add('animate-starPulse');
 
 			const left = Math.floor(Math.random() * window.innerWidth);
 			const top = Math.floor(Math.random() * window.innerHeight);
