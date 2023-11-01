@@ -3,7 +3,7 @@
 
 </script>
 
-<div id="About" class="flex w-full justify-center text-8xl pb-8">
+<div id="About" class="flex w-full justify-center text-8xl pb-4">
     <a href="#About"><Sectionname text={"About"} /></a>
 </div>
 

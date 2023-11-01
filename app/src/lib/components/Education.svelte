@@ -18,11 +18,11 @@
 	];
 </script>
 
-<div id="Education" class="flex justify-center text-8xl">
+<div id="Education" class="flex justify-center text-8xl pb-4">
 	<a href="#Education"><Sectionname text="Education" /></a>
 </div>
 
-<div class="w-full pt-4">
+<div class="w-full">
 	{#each education as e}
     <div class="pb-10">
 		<EducationEntry
