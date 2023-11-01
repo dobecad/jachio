@@ -22,7 +22,7 @@
 	<a href="#Experience"><Sectionname text="Experience" /></a>
 </div>
 
-<div class="w-full pt-4 grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-8 justify-items-center">
+<div class="w-full pt-4 grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-1 gap-8 justify-items-center">
 	{#each experience as e}
 		<ExperienceEntry img={e.img} name={e.name} />
 	{/each}
