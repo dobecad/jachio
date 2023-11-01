@@ -3,7 +3,7 @@
 
 </script>
 
-<div id="About" class="flex w-full justify-center text-8xl pb-4">
+<div id="About" class="flex w-full justify-center text-8xl pb-40">
     <a href="#About"><Sectionname text={"About"} /></a>
 </div>
 
@@ -11,7 +11,7 @@
     <div class="flex justify-center">
         <img src="BlackHole2.png" alt="logo" class="w-80 h-80">
     </div>
-    <div class="text-2xl pt-8 lg:pt-0">
+    <div class="text-2xl pt-10 lg:pt-0">
         <p class="flex">My heart beats for simplicity, and I channel that passion into crafting software that's here to make your life a whole lot easier.</p>
         <br>
         <p class="flex">I have strong interests in distributed systems, full-stack development, API development, container orchestration, and building performant, cost-effective cloud-native applications.</p>
