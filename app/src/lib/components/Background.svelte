@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import gsap from 'gsap';
 
 	const svgStar = `<svg
 		width="100%"
@@ -32,25 +33,53 @@
 		></svg>
     `;
 
+	function createStar(): HTMLDivElement {
+		const div = document.createElement('div');
+		div.classList.add('w-4');
+		div.classList.add('h-4');
+		div.classList.add('absolute');
+		div.classList.add('star');
+		div.innerHTML = svgStar;
+		return div;
+	}
+
 	function createStars() {
 		const container = document.getElementById('starchart');
 
-		for (let i = 0; i < 50; i++) {
-			const div = document.createElement('div');
-            div.classList.add('w-4');
-            div.classList.add('h-4');
-            div.classList.add('absolute');
-			div.classList.add('opacity-25');
-            // div.classList.add('animate-starPulse');
+		const backgroundStars = window.innerWidth > 1200 ? 50 : 25;
+		for (let i = 0; i < backgroundStars; i++) {
+			const star = createStar();
+			star.classList.add('opacity-10');
+			star.classList.add('animate-starPulse');
 
-			const left = Math.floor(Math.random() * window.innerWidth);
-			const top = Math.floor(Math.random() * window.innerHeight);
-			const rotate = Math.floor(Math.random() * 360);
-			div.style.left = `${left}px`;
-			div.style.top = `${top}px`;
-			div.style.rotate = `${rotate}deg`;
-			div.innerHTML = svgStar;
-			container?.appendChild(div);
+			star.style.left = `${Math.random() * window.innerWidth}px`;
+			star.style.top = `${Math.random() * window.innerHeight}px`;
+			star.style.rotate = `${Math.floor(Math.random() * 360)}deg`;
+			container?.appendChild(star);
+		}
+
+		for (let i = 0; i < 25; i++) {
+			const star = createStar();
+			star.classList.add('opacity-40');
+
+			star.setAttribute('id', `star${i}`);
+			star.style.left = `${Math.random() * window.innerWidth}px`;
+			star.style.top = `${Math.random() * -window.innerHeight}px`;
+			star.style.rotate = `${Math.floor(Math.random() * 360)}deg`;
+			container?.appendChild(star);
+			gsap.to(`#star${i}`, {
+				delay: Math.random() * 4,
+				y: window.innerHeight * 2,
+				x: -800,
+				duration: 4,
+				repeat: -1,
+				ease: "power4",
+				onRepeat: () => {
+					const star = document.getElementById(`star${i}`) as HTMLElement;
+					star.style.left = `${Math.random() * window.innerWidth}px`;
+					star.style.top = `${Math.random() * -window.innerHeight}px`;
+				}
+			});
 		}
 	}
 
