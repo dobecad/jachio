@@ -50,6 +50,7 @@
 		for (let i = 0; i < backgroundStars; i++) {
 			const star = createStar();
 			star.classList.add('opacity-10');
+			star.classList.add('background-stars');
 			star.classList.add('animate-starPulse');
 
 			star.style.left = `${Math.random() * window.innerWidth}px`;
@@ -73,7 +74,7 @@
 				x: -800,
 				duration: 4,
 				repeat: -1,
-				ease: "power4",
+				ease: 'power4',
 				onRepeat: () => {
 					const star = document.getElementById(`star${i}`) as HTMLElement;
 					star.style.left = `${Math.random() * window.innerWidth}px`;
@@ -84,7 +85,7 @@
 	}
 
 	onMount(() => {
-        createStars();
+		createStars();
 	});
 </script>
 
