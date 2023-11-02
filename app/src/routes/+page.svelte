@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import About from '$lib/components/About.svelte';
 	import Background from '$lib/components/Background.svelte';
 	import Cursor from '$lib/components/Cursor.svelte';

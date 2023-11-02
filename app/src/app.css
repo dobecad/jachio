@@ -36,3 +36,41 @@
     --tw-shadow-colored: 0 0 20px 20px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0f172a),var(--tw-ring-shadow, 0 0 #0f172a),var(--tw-shadow);
 }
+
+:root {
+  --gradient-angle: 360deg;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 360deg;
+  inherits: false;
+}
+
+.card {
+  background: linear-gradient(
+    var(--gradient-angle),
+    hsla(0, 0%, 100%, 0.5),
+    hsla(0, 0%, 100%, 0.1),
+    #fff,
+    hsla(0, 0%, 100%, 0.3)
+  ) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+@keyframes gradient-rotate {
+  0% {
+    --gradient-angle: 360deg;
+  }
+
+  100% {
+    --gradient-angle: 0deg;
+  }
+}
+
+.w-full-minus-5px {
+  width: calc(100% - 5px);
+}
+.h-full-minus-5px {
+  height: calc(100% - 5px);
+}
