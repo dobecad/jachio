@@ -19,3 +19,20 @@
         opacity: 70;
     }
 }
+
+/* Taken from https://idx.dev/ */
+:root {
+    --tw-ring-offset-shadow: 0 0 #0f172a;
+    --tw-ring-shadow: 0 0 #0f172a;
+    --tw-shadow: 0 0 #0f172a;
+    --tw-shadow-colored: 0 0 #0f172a;
+}
+
+.obscure-stars {
+    border-radius: .75rem;
+    --tw-bg-opacity: 1;
+    background-color: #0f172a;
+    --tw-shadow: 0 0 20px 20px #0f172a;
+    --tw-shadow-colored: 0 0 20px 20px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0f172a),var(--tw-ring-shadow, 0 0 #0f172a),var(--tw-shadow);
+}
