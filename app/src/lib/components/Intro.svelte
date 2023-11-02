@@ -54,7 +54,7 @@
 	});
 </script>
 
-<div class="h-max w-full">
+<div class="h-max w-full font-bold obscure-stars">
 	<div class="text-6xl pb-4">
 		<p id="greeting" class="text-center">Hi, I'm</p>
 	</div>
