@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"animejs": "^3.2.1"
+		"animejs": "^3.2.1",
+		"gsap": "^3.12.2"
 	}
 }
