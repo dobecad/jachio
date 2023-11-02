@@ -74,6 +74,7 @@
 				x: -800,
 				duration: 4,
 				repeat: -1,
+				rotate: 1080,
 				ease: 'power4',
 				onRepeat: () => {
 					const star = document.getElementById(`star${i}`) as HTMLElement;
@@ -86,6 +87,22 @@
 
 	onMount(() => {
 		createStars();
+		// 	if (typeof window !== 'undefined') {
+		// 		import('gsap/ScrollTrigger').then((module) => {
+		// 			gsap.registerPlugin(module.ScrollTrigger);
+		// 			gsap.to('.background-stars', {
+		// 				scrollTrigger: {
+		// 					trigger: '.background-stars',
+		// 					start: 'top center',
+		// 					markers: true,
+		// 					scrub: 1,
+		// 					toggleActions: 'restart none reverse none'
+		// 				},
+		// 				y: 10000,
+		// 				duration: 3
+		// 			});
+		// 		});
+		// 	}
 	});
 </script>
 
