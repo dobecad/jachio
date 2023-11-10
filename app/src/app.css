@@ -2,39 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes fadeIn {
+  0%, 55% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
 
-/* @keyframes moveLeft {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(calc(100vw + 100px));
-    }
-} */
-@keyframes starPulse {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 70;
-    }
+.project-card-info {
+  animation: fadeIn 1s linear;
+}
+
+.tiles {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
 }
 
 /* Taken from https://idx.dev/ */
 :root {
-    --tw-ring-offset-shadow: 0 0 #0f172a;
-    --tw-ring-shadow: 0 0 #0f172a;
-    --tw-shadow: 0 0 #0f172a;
-    --tw-shadow-colored: 0 0 #0f172a;
+  --tw-ring-offset-shadow: 0 0 #0f172a;
+  --tw-ring-shadow: 0 0 #0f172a;
+  --tw-shadow: 0 0 #0f172a;
+  --tw-shadow-colored: 0 0 #0f172a;
 }
 
 .obscure-stars {
-    border-radius: .75rem;
-    --tw-bg-opacity: 1;
-    background-color: #0f172a;
-    --tw-shadow: 0 0 20px 20px #0f172a;
-    --tw-shadow-colored: 0 0 20px 20px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0f172a),var(--tw-ring-shadow, 0 0 #0f172a),var(--tw-shadow);
+  border-radius: .75rem;
+  --tw-bg-opacity: 1;
+  background-color: #0f172a;
+  --tw-shadow: 0 0 20px 20px #0f172a;
+  --tw-shadow-colored: 0 0 20px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0f172a), var(--tw-ring-shadow, 0 0 #0f172a), var(--tw-shadow);
 }
 
 :root {
@@ -48,13 +51,11 @@
 }
 
 .card {
-  background: linear-gradient(
-    var(--gradient-angle),
-    hsla(0, 0%, 100%, 0.5),
-    hsla(0, 0%, 100%, 0.1),
-    #fff,
-    hsla(0, 0%, 100%, 0.3)
-  ) !important;
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.5),
+      hsla(0, 0%, 100%, 0.1),
+      #fff,
+      hsla(0, 0%, 100%, 0.3)) !important;
   animation: gradient-rotate 5s linear infinite reverse;
 }
 
@@ -71,6 +72,7 @@
 .w-full-minus-5px {
   width: calc(100% - 5px);
 }
+
 .h-full-minus-5px {
   height: calc(100% - 5px);
 }
