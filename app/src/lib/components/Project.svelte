@@ -10,7 +10,7 @@
 	export let tags: string[];
 	let toggled = false;
 
-	const tileSize = 25;
+	const tileSize = 18;
 	let idName = 'project-' + name.toLowerCase().replaceAll(' ', '') + id.toString();
 	let columns = 0;
 	let rows = 0;
