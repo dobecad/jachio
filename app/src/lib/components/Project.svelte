@@ -70,6 +70,34 @@
 </script>
 
 <div
+	class="card w-80 h-80 rounded-lg flex justify-center items-center transition hover:duration-300 hover:-translate-y-1 hover:scale-110 ease-in-out"
+>
+	<div
+		id={idName}
+		class="w-full-minus-5px h-full-minus-5px bg-slate-950 rounded-lg tiles relative ease-in-out"
+	>
+		{#if toggled}
+			<div class="w-full h-full absolute z-0 project-card-info overflow-x-auto overflow-y-auto">
+				<div class="text-xl text-center pt-2">{description}</div>
+				<div class="flex flex-wrap w-full justify-center pt-4 gap-4">
+					{#each tags as tag}
+						<div
+							class="flex bg-violet-600 opacity-80 pl-2 pr-2 w-fit rounded-full font-bold text-center"
+						>
+							{tag}
+						</div>
+					{/each}
+				</div>
+			</div>
+		{:else}
+			<div class="flex w-full h-full justify-center items-center absolute z-0 project-card-info">
+				<div class="text-xl text-center">{name}</div>
+			</div>
+		{/if}
+	</div>
+</div>
+
+<!-- <div
 	id={idName}
 	class="w-80 h-80 border-slate-200 border-4 rounded-lg bg-slate-900 tiles relative hover:-translate-y-3 hover:scale-110 hover:duration-300 ease-in-out"
 >
@@ -91,4 +119,4 @@
 			<div class="text-xl text-center">{name}</div>
 		</div>
 	{/if}
-</div>
+</div> -->
