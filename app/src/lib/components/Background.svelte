@@ -85,8 +85,25 @@
 		}
 	}
 
+	function animateBackgroundStars() {
+		gsap.to(".animate-starPulse", {
+			opacity: 0.7,
+			duration: 3,
+			ease: "power2.inOut",
+			yoyo: true,
+			repeat: -1,
+			repeatDelay: 1,
+			stagger: 0.2,
+		});
+	}
+
 	onMount(() => {
 		createStars();
+		gsap.to(".animate-starPulse", {
+			opacity: 0,
+			duration: 1,
+		});
+		animateBackgroundStars();
 		// 	if (typeof window !== 'undefined') {
 		// 		import('gsap/ScrollTrigger').then((module) => {
 		// 			gsap.registerPlugin(module.ScrollTrigger);
