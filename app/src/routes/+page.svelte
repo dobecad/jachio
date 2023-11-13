@@ -53,13 +53,13 @@
 		<About />
 	</section>
 	<section class="pt-40 h-fit">
+		<Experience />
+	</section>
+	<section class="pt-40 h-fit">
 		<History />
 	</section>
 	<section class="pt-40 h-fit">
-		<Experience />
-	</section>
-	<section class="pt-40 h-screen">
 		<Education />
 	</section>
-	<div class="pb-80" />
+	<div class="pt-40"/>
 </div>
