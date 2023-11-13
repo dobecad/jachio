@@ -17,8 +17,6 @@
 
 .tiles {
   display: grid;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
 }
@@ -75,4 +73,35 @@
 
 .h-full-minus-5px {
   height: calc(100% - 5px);
+}
+
+/* Track styles */
+::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+  background-color: #9C1F58; /* color of the handle */
+  border-radius: 3rem; /* rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #641237; /* darker color when hovered */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #0f172a; /* lighter color when hovered */
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+  background: #0f172a; /* color of the track */
+}
+
+/* Corner styles */
+::-webkit-scrollbar-corner {
+  background: #ccc; /* color of the corner where vertical and horizontal scrollbars meet */
 }
