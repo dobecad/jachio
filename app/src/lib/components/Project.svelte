@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import gsap from 'gsap';
-	import Background from './Background.svelte';
 
 	export let img: string;
 	export let name: string;
