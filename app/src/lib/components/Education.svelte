@@ -18,7 +18,7 @@
 	];
 </script>
 
-<div id="Education" class="flex justify-center text-8xl pb-4">
+<div id="Education" class="flex justify-center text-8xl pb-20">
 	<a href="#Education"><Sectionname text="Education" /></a>
 </div>
 

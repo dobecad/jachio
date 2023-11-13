@@ -23,7 +23,7 @@
 	];
 </script>
 
-<div id="History" class="flex justify-center text-8xl pb-4">
+<div id="History" class="flex justify-center text-8xl pb-20">
 	<a href="#History"><Sectionname text={'History'} /></a>
 </div>
 
