@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Project from './Project.svelte';
 	import Sectionname from './StyledWord.svelte';
+	import UnderlinedText from './UnderlinedText.svelte';
 	const projects: { img: string; name: string; description: string; tags: string[] }[] = [
 		{
 			img: 'BlackHole2.png',
@@ -32,7 +33,7 @@
 </script>
 
 <div id="Projects" class="flex justify-center text-8xl">
-	<a href="#Projects"><Sectionname text={'Projects'} /></a>
+	<a href="#Projects"><UnderlinedText text={'Projects'} /></a>
 </div>
 
 <div class="pt-40">
