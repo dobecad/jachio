@@ -1,6 +1,7 @@
 <script lang="ts">
 	import EducationEntry from './EducationEntry.svelte';
 	import Sectionname from './StyledWord.svelte';
+	import UnderlinedText from './UnderlinedText.svelte';
 
 	const education: { name: string; dates: string; degree: string; minor_or_focus: string }[] = [
 		{
@@ -19,18 +20,18 @@
 </script>
 
 <div id="Education" class="flex justify-center text-8xl pb-20">
-	<a href="#Education"><Sectionname text="Education" /></a>
+	<a href="#Education"><UnderlinedText text="Education" /></a>
 </div>
 
 <div class="w-full">
 	{#each education as e}
-    <div class="pb-10">
-		<EducationEntry
-			name={e.name}
-			dates={e.dates}
-			degree={e.degree}
-			minor_or_focus={e.minor_or_focus}
-		/>
-    </div>
+		<div class="pb-10">
+			<EducationEntry
+				name={e.name}
+				dates={e.dates}
+				degree={e.degree}
+				minor_or_focus={e.minor_or_focus}
+			/>
+		</div>
 	{/each}
 </div>

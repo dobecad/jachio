@@ -4,7 +4,7 @@
 </script>
 
 <div id="About" class="flex w-full justify-center text-8xl pb-40">
-	<a href="#About"><Sectionname text={'About'} /></a>
+	<a href="#About"><UnderlinedText text={'About'} /></a>
 </div>
 
 <div class="lg:grid lg:grid-cols-2">
@@ -14,7 +14,7 @@
 	<div class="text-2xl pt-10 lg:pt-0">
 		<p class="flex flex-wrap">
 			I am a software engineer with a passion for simplicity. I channel that passion into crafting
-			solutions that are here to make your life a whole lot easier. <UnderlinedText />
+			solutions that are here to make your life a whole lot easier.
 		</p>
 		<br />
 		<p class="flex flex-wrap">
