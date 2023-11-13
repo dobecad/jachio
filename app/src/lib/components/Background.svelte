@@ -49,7 +49,7 @@
 		const backgroundStars = window.innerWidth > 1200 ? 50 : 25;
 		for (let i = 0; i < backgroundStars; i++) {
 			const star = createStar();
-			star.classList.add('opacity-10');
+			star.classList.add('opacity-0');
 			star.classList.add('background-stars');
 			star.classList.add('animate-starPulse');
 
