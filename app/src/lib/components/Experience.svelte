@@ -18,7 +18,7 @@
 	];
 </script>
 
-<div id="Experience" class="flex justify-center w-full text-8xl pb-10">
+<div id="Experience" class="flex justify-center w-full text-8xl pb-40">
 	<a href="#Experience"><Sectionname text="Experience" /></a>
 </div>
 
