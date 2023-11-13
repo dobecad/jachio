@@ -50,6 +50,9 @@
 		<Projects />
 	</section>
 	<section class="pt-40 h-fit">
+		<About />
+	</section>
+	<section class="pt-40 h-fit">
 		<History />
 	</section>
 	<section class="pt-40 h-fit">
@@ -57,9 +60,6 @@
 	</section>
 	<section class="pt-40 h-screen">
 		<Education />
-	</section>
-	<section class="pt-40">
-		<About />
 	</section>
 	<div class="pb-80" />
 </div>
