@@ -74,7 +74,7 @@
 >
 	<div
 		id={idName}
-		class="w-full-minus-5px h-full-minus-5px bg-slate-950 rounded-lg tiles relative ease-in-out"
+		class="w-full-minus-5px h-full-minus-5px bg-slate-950 rounded-lg tiles relative ease-in-out overflow-hidden"
 	>
 		{#if toggled}
 			<div class="w-full h-full absolute z-0 project-card-info overflow-x-auto overflow-y-auto">
