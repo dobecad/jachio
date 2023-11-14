@@ -11,7 +11,6 @@
 			'onscientious',
 			'ollaborative',
 			'lever',
-			'ommitted',
 			'ommunicative'
 		];
 		let wordIndex = 0;
