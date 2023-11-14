@@ -3,14 +3,17 @@
 	import Background from '$lib/components/Background.svelte';
 	import Cursor from '$lib/components/Cursor.svelte';
 	import Education from '$lib/components/Education.svelte';
-	import Experience from '$lib/components/Experience.svelte';
+	import Experience from '$lib/components/ProgrammingLanguages.svelte';
+	import FollowCursor from '$lib/components/FollowCursor.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import History from '$lib/components/History.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
+	import Tools from '$lib/components/Tools.svelte';
 </script>
 
 <!-- <Cursor /> -->
+<!-- <FollowCursor /> -->
 <div class="w-full h-screen absolute z-0">
 	<Background />
 </div>
@@ -54,6 +57,9 @@
 	</section>
 	<section class="pt-40 h-fit">
 		<Experience />
+	</section>
+	<section class="pt-40 h-fit">
+		<Tools />
 	</section>
 	<section class="pt-40 h-fit">
 		<History />
