@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import StyledWord from './StyledWord.svelte';
+	import UnderlinedText from './UnderlinedText.svelte';
 
 	onMount(() => {
 		const words: string[] = [
@@ -57,12 +58,18 @@
 	</div>
 	<div class="inline-block text-8xl text-center min-w-full">
 		<StyledWord text="Just"/>
-		<div>A</div>
-		<span>C<span id="adjectives" /></span>
-		<div>Engineer</div>
+		<div>
+			<StyledWord text="A"/>
+		</div>
+		<div>
+			<span><StyledWord text="C"/><span id="adjectives" /></span>
+		</div>
+		<div>
+			<StyledWord text="E"/>ngineer
+		</div>
 	</div>
 	<div class="pt-28 text-4xl text-center">
-		<span>But you can just call me </span><StyledWord text="Jace" />
+		<span>But you can just call me <span><a href="https://www.linkedin.com/in/jace-hull/" target=_blank><UnderlinedText text={"Jace"} /></a></span></span>
 	</div>
 </div>
 
