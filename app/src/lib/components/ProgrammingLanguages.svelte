@@ -14,7 +14,7 @@
 	];
 </script>
 
-<div id="ProgrammingLanguages" class="flex justify-center w-full text-8xl pb-40">
+<div id="ProgrammingLanguages" class="flex justify-center w-full text-8xl pb-40 text-center">
 	<a href="#ProgrammingLanguages"><UnderlinedText text={'Programming Languages'} /></a>
 </div>
 
