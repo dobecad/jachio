@@ -31,4 +31,4 @@
   }
 </style>
 
-<div class="underline">{text}</div>
+<div class="underline inline">{text}</div>
