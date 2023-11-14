@@ -30,10 +30,6 @@
   }
 }
 
-.bounding-box {
-
-}
-
 .skull-bounce {
   animation: bounce 5s linear infinite;
 }
@@ -136,6 +132,6 @@
 
 /* Corner styles */
 ::-webkit-scrollbar-corner {
-  background: #ccc;
+  background: #0f172a;
   /* color of the corner where vertical and horizontal scrollbars meet */
 }
