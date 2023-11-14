@@ -21,8 +21,8 @@
 	<a href="#About"><UnderlinedText text={'About'} /></a>
 </div>
 
-<div class="lg:grid lg:grid-cols-2 bounding-box">
-	<div class="flex justify-center bounding-box">
+<div class="lg:grid lg:grid-cols-2 pb-20">
+	<div class="flex justify-center">
 		<svg
 			class="w-80 h-80 overflow-visible"
 			width="100%"
