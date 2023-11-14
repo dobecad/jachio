@@ -10,6 +10,7 @@
 	import Intro from '$lib/components/Intro.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import Tools from '$lib/components/Tools.svelte';
+	import Databases from '$lib/components/Databases.svelte';
 </script>
 
 <!-- <Cursor /> -->
@@ -60,6 +61,9 @@
 	</section>
 	<section class="pt-40 h-fit">
 		<Tools />
+	</section>
+	<section class="pt-40 h-fit">
+		<Databases />
 	</section>
 	<section class="pt-40 h-fit">
 		<History />
