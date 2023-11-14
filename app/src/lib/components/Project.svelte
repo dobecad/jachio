@@ -81,7 +81,7 @@
 				<div class="flex flex-wrap w-full justify-center pt-4 gap-4">
 					{#each tags as tag}
 						<div
-							class="flex bg-violet-600 opacity-80 pl-2 pr-2 w-fit rounded-full font-bold text-center"
+							class="flex bg-cyan-500/10 text-cyan-300 pl-2 pr-2 w-fit rounded-full font-bold text-center"
 						>
 							{tag}
 						</div>
