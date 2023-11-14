@@ -10,6 +10,7 @@
 	import Projects from '$lib/components/Projects.svelte';
 	import Tools from '$lib/components/Tools.svelte';
 	import Databases from '$lib/components/Databases.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <!-- <Cursor /> -->
@@ -70,4 +71,7 @@
 		<Education />
 	</section>
 	<div class="pt-40"/>
+	<footer class="pt-20 pb-10">
+		<Footer />
+	</footer>
 </div>
