@@ -3,12 +3,39 @@
 @tailwind utilities;
 
 @keyframes fadeIn {
-  0%, 65% {
+
+  0%,
+  65% {
     opacity: 0
   }
+
   100% {
     opacity: 1
   }
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-10px);
+  }
+
+  75% {
+    transform: translateY(10px);
+  }
+}
+
+.bounding-box {
+
+}
+
+.skull-bounce {
+  animation: bounce 5s linear infinite;
 }
 
 .project-card-info {
@@ -77,31 +104,38 @@
 
 /* Track styles */
 ::-webkit-scrollbar {
-  width: 10px; /* width of the entire scrollbar */
+  width: 12px;
+  /* width of the entire scrollbar */
 }
 
 /* Handle styles */
 ::-webkit-scrollbar-thumb {
-  background-color: #9C1F58; /* color of the handle */
-  border-radius: 3rem; /* rounded corners */
+  background-color: #9C1F58;
+  /* color of the handle */
+  border-radius: 6px;
+  /* rounded corners */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #641237; /* darker color when hovered */
+  background-color: #641237;
+  /* darker color when hovered */
 }
 
 /* Track on hover */
 ::-webkit-scrollbar-track:hover {
-  background-color: #0f172a; /* lighter color when hovered */
+  background-color: #0f172a;
+  /* lighter color when hovered */
 }
 
 /* Track styles */
 ::-webkit-scrollbar-track {
-  background: #0f172a; /* color of the track */
+  background: #0f172a;
+  /* color of the track */
 }
 
 /* Corner styles */
 ::-webkit-scrollbar-corner {
-  background: #ccc; /* color of the corner where vertical and horizontal scrollbars meet */
+  background: #ccc;
+  /* color of the corner where vertical and horizontal scrollbars meet */
 }
