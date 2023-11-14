@@ -2,8 +2,6 @@
 	import { onMount } from 'svelte';
 	import StyledWord from './StyledWord.svelte';
 
-    let showName = true;
-
 	onMount(() => {
 		const words: string[] = [
 			'reative',
