@@ -69,7 +69,7 @@
 </script>
 
 <div
-	class="card w-80 h-80 rounded-lg flex justify-center items-center transition hover:duration-300 hover:-translate-y-1 hover:scale-110 ease-in-out"
+	class="card w-72 h-72 rounded-lg flex justify-center items-center transition hover:duration-300 hover:-translate-y-1 hover:scale-110 ease-in-out"
 >
 	<div
 		id={idName}
