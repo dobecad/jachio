@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	import Sectionname from './StyledWord.svelte';
 	import UnderlinedText from './UnderlinedText.svelte';
 	import gsap from 'gsap';
 
@@ -17,7 +16,7 @@
 	});
 </script>
 
-<div id="About" class="flex w-full justify-center text-8xl pb-40">
+<div id="About" class="flex w-full justify-center text-8xl pb-20">
 	<a href="#About"><UnderlinedText text={'About'} /></a>
 </div>
 

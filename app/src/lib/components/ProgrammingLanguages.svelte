@@ -14,12 +14,12 @@
 	];
 </script>
 
-<div id="ProgrammingLanguages" class="flex justify-center w-full text-8xl pb-40 text-center">
+<div id="ProgrammingLanguages" class="flex justify-center w-full text-8xl pb-20 text-center">
 	<a href="#ProgrammingLanguages"><UnderlinedText text={'Programming Languages'} /></a>
 </div>
 
 <div
-	class="w-full flex flex-wrap justify-center gap-8 pb-20"
+	class="w-full flex flex-wrap justify-center gap-8"
 >
 	{#each experience as e}
 		<ExperienceEntry img={e.img} name={e.name} />

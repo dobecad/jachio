@@ -32,11 +32,11 @@
 	];
 </script>
 
-<div id="Projects" class="flex justify-center text-8xl">
+<div id="Projects" class="flex justify-center text-8xl pb-20">
 	<a href="#Projects"><UnderlinedText text={'Projects'} /></a>
 </div>
 
-<div class="pt-40">
+<div>
 	<div class="flex flex-wrap justify-center w-full gap-16">
 		{#each projects as project, i (i)}
 			<Project
