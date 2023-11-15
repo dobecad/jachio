@@ -49,7 +49,7 @@
 			/></svg
 		>
 	</div>
-	<section class="pt-20 h-fit">
+	<section class="pt-10 h-fit">
 		<Projects />
 	</section>
 	<section class="pt-40 h-fit">
