@@ -73,7 +73,7 @@
 				y: window.innerHeight * 2,
 				x: -800,
 				duration: 4,
-				repeat: -1,
+				repeat: 1,
 				rotate: 1080,
 				ease: 'power4',
 				onRepeat: () => {
@@ -90,10 +90,7 @@
 			opacity: 0.7,
 			duration: 3,
 			ease: "power2.inOut",
-			yoyo: true,
-			repeat: -1,
-			repeatDelay: 1,
-			stagger: 0.2,
+			stagger: 0.15,
 		});
 	}
 
