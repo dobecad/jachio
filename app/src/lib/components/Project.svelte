@@ -69,7 +69,7 @@
 </script>
 
 <div
-	class="card w-72 h-72 rounded-lg flex justify-center items-center transition hover:duration-300 hover:-translate-y-1 hover:scale-110 ease-in-out"
+	class="card sm:w-96 sm:h-96 w-60 h-60 rounded-lg flex flex-shrink-0 justify-center items-center transition hover:duration-300 hover:md:-translate-y-1 hover:md:scale-110 ease-in-out"
 >
 	<div
 		id={idName}
@@ -77,11 +77,11 @@
 	>
 		{#if toggled}
 			<div class="w-full h-full absolute z-0 project-card-info overflow-x-auto overflow-y-auto">
-				<div class="text-xl text-center pt-2">{description}</div>
-				<div class="flex flex-wrap w-full justify-center pt-4 gap-4">
+				<div class="sm:text-lg text-xs text-center pt-2 pl-2 pr-2">{description}</div>
+				<div class="flex flex-wrap w-full justify-center pt-4 sm:gap-4 gap-2">
 					{#each tags as tag}
 						<div
-							class="flex bg-cyan-500/10 text-cyan-300 pl-2 pr-2 w-fit rounded-full font-bold text-center"
+							class="flex bg-cyan-500/10 text-cyan-300 pl-2 pr-2 w-fit rounded-full font-bold text-center sm:text-lg text-xs"
 						>
 							{tag}
 						</div>

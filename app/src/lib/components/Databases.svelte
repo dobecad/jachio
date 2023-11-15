@@ -10,7 +10,7 @@
 	];
 </script>
 
-<div id="Databases" class="flex justify-center w-full text-8xl pb-20">
+<div id="Databases" class="flex justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
 	<a href="#Databases"><UnderlinedText text={'Databases'} /></a>
 </div>
 

@@ -16,7 +16,7 @@
 	});
 </script>
 
-<div id="About" class="flex w-full justify-center text-8xl pb-20">
+<div id="About" class="flex w-full justify-center lg:text-8xl text-4xl font-bold pb-20">
 	<a href="#About"><UnderlinedText text={'About'} /></a>
 </div>
 
@@ -599,7 +599,7 @@
 			></svg
 		>
 	</div>
-	<div class="text-2xl pt-10 lg:pt-0">
+	<div class="text-2xl text-center pt-10 lg:pt-0">
 		<p class="flex flex-wrap">
 			I am a software engineer with a passion for simplicity. I channel that passion into crafting
 			solutions that are here to make your life a whole lot easier.

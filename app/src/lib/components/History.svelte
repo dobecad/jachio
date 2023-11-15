@@ -24,7 +24,7 @@
 	];
 </script>
 
-<div id="History" class="flex justify-center text-8xl pb-20">
+<div id="History" class="flex justify-center lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
 	<a href="#History"><UnderlinedText text={'History'} /></a>
 </div>
 

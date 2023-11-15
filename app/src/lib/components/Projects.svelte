@@ -1,38 +1,46 @@
 <script lang="ts">
 	import Project from './Project.svelte';
-	import Sectionname from './StyledWord.svelte';
 	import UnderlinedText from './UnderlinedText.svelte';
 	const projects: { img: string; name: string; description: string; tags: string[] }[] = [
 		{
 			img: 'BlackHole2.png',
-			name: 'Vod Recap',
-			description: 'lorem ipsum',
+			name: 'vod-recap',
+			description:
+				'A full-stack, microservice research project for visualizing Twitch and YouTube chat metadata to automatically identify livestream highlights.',
 			tags: ['Python', 'Django', 'FastAPI', 'PostgreSQL', 'JavaScript']
 		},
-		{ img: 'BlackHole2.png', name: 'MAL-API', description: 'lorem ipsum', tags: ['Rust', 'Serde'] },
-		{ img: 'BlackHole2.png', name: 'Orbitix', description: 'lorem ipsum', tags: ['Rust', 'gRPC'] },
 		{
 			img: 'BlackHole2.png',
-			name: 'Quipose',
-			description: 'lorem ipsum',
-			tags: ['Rust', 'Leptos', 'SurrealDB', 'Svelte']
+			name: 'mal-api',
+			description:
+				'The only asynchronous Rust library offering a completely type-safe API for the largest anime and manga database globally. Fully supports all endpoints and query arguments. Complemented with comprehensive documentation, unit tests, and robust CI pipelines.',
+			tags: ['Library', 'Rust', 'Serialization', 'Deserialization', 'REST']
 		},
 		{
 			img: 'BlackHole2.png',
-			name: 'Compose Validatr',
-			description: 'lorem ipsum',
-			tags: ['Rust', 'Serde']
+			name: 'orbitix',
+			description:
+				'A service discovery library using gRPC for building distributed systems, inspired by the Scalable Weakly Consistent Infection-style Process Group Membership (SWIM) protocol. Allows for developers to create applications that can easily discover other nodes within their cluster.',
+			tags: ['Library', 'Rust', 'gRPC', 'SWIM', 'Distributed Systems']
+		},
+		{
+			img: 'BlackHole2.png',
+			name: 'compose-validatr',
+			description:
+				'A library for building and validating Docker Compose manifests on the web with Rust. Implements and validates all of the Docker Compose fields that are not dependent on the host system.',
+			tags: ['Library', 'Rust', 'Serialization', 'Deserialization', 'Specification']
 		},
 		{
 			img: 'BlackHole2.png',
 			name: 'Portfolio',
-			description: 'lorem ipsum',
-			tags: ['Svelte', 'TailwindCSS', 'GSAP']
+			description:
+				'This is my portfolio website! This frontend app leverages Svelte for reactive components and TailwindCSS for elegant styles. I employ GSAP and vanilla CSS for animations. I created custom SVGs with Affinity Designer.',
+			tags: ['Frontend', 'Svelte', 'Sveltekit', 'TailwindCSS', 'CSS', 'GSAP']
 		}
 	];
 </script>
 
-<div id="Projects" class="flex justify-center text-8xl pb-20">
+<div id="Projects" class="flex break-all justify-center lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
 	<a href="#Projects"><UnderlinedText text={'Projects'} /></a>
 </div>
 

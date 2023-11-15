@@ -19,7 +19,7 @@
 	];
 </script>
 
-<div id="Education" class="flex justify-center text-8xl pb-20">
+<div id="Education" class="flex justify-center lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
 	<a href="#Education"><UnderlinedText text="Education" /></a>
 </div>
 

@@ -53,10 +53,10 @@
 </script>
 
 <div class="h-max w-full font-bold obscure-stars">
-	<div class="text-6xl pb-4">
+	<div class="lg:text-6xl md:text-4xl text-3xl pb-4">
 		<p id="greeting" class="text-center">Hi, I'm</p>
 	</div>
-	<div class="inline-block text-8xl text-center min-w-full">
+	<div class="inline-block lg:text-8xl md:text-6xl text-4xl text-center min-w-full">
 		<StyledWord text="Just"/>
 		<div>
 			<StyledWord text="A"/>
@@ -68,7 +68,7 @@
 			<StyledWord text="E"/>ngineer
 		</div>
 	</div>
-	<div class="pt-28 text-4xl text-center">
+	<div class="pt-28 lg:text-4xl md:text-3xl text-xl text-center">
 		<span>But you can just call me <span><a href="https://www.linkedin.com/in/jace-hull/" target=_blank><UnderlinedText text={"Jace"} /></a></span></span>
 	</div>
 </div>

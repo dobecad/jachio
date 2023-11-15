@@ -27,9 +27,9 @@
 			<Intro />
 		</div>
 	</section>
-	<div class="w-full -translate-y-20 flex justify-center items-center">
+	<div class="w-full sm:-translate-y-20 -translate-y-10 flex justify-center items-center">
 		<svg
-			class="w-16 h-16 animate-bounce"
+			class="sm:w-16 sm:h-16 w-8 h-8 animate-bounce"
 			width="100%"
 			height="100%"
 			viewBox="0 0 434 562"

@@ -11,7 +11,7 @@
 	];
 </script>
 
-<div id="InfrastructureTools" class="flex justify-center w-full text-8xl pb-20 text-center">
+<div id="InfrastructureTools" class="flex break-words justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10 text-center">
 	<a href="#InfrastructureTools"><UnderlinedText text={'Infrastructure Tools'} /></a>
 </div>
 
