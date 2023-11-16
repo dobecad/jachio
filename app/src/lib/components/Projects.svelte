@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Project from './Project.svelte';
 	import UnderlinedText from './UnderlinedText.svelte';
-	const projects: { img: string; name: string; description: string; tags: string[] }[] = [
+	const projects: { img: string; name: string; description: string; tags: string[]; github_url: string }[] = [
 		{
 			img: 'BlackHole2.png',
 			name: 'vod-recap',
+			github_url: '/VOD_Recap.pdf',
 			description:
 				'A full-stack, microservice research project for visualizing Twitch and YouTube chat metadata to automatically identify livestream highlights.',
 			tags: [
@@ -20,6 +21,7 @@
 		{
 			img: 'BlackHole2.png',
 			name: 'mal-api',
+			github_url: 'https://github.com/dobecad/mal-rs',
 			description:
 				'The only asynchronous Rust library offering a completely type-safe API for the largest anime and manga database globally. Fully supports all endpoints and query arguments. Complemented with comprehensive documentation, unit tests, and robust CI pipelines.',
 			tags: ['Library', 'Rust', 'Serialization', 'Deserialization', 'REST']
@@ -27,6 +29,7 @@
 		{
 			img: 'BlackHole2.png',
 			name: 'orbitix',
+			github_url: 'https://github.com/dobecad/orbitix',
 			description:
 				'A service discovery library using gRPC for building distributed systems, inspired by the Scalable Weakly Consistent Infection-style Process Group Membership (SWIM) protocol. Allows for developers to create applications that can easily discover other nodes within their cluster.',
 			tags: ['Library', 'Rust', 'gRPC', 'SWIM', 'Distributed Systems']
@@ -34,13 +37,15 @@
 		{
 			img: 'BlackHole2.png',
 			name: 'compose-validatr',
+			github_url: 'https://github.com/dobecad/compose-validatr',
 			description:
 				'A library for building and validating Docker Compose manifests on the web with Rust. Implements and validates all of the Docker Compose fields that are not dependent on the host system.',
 			tags: ['Library', 'Rust', 'Serialization', 'Deserialization', 'Specification']
 		},
 		{
 			img: 'BlackHole2.png',
-			name: 'Portfolio',
+			name: 'portfolio',
+			github_url: 'https://github.com/dobecad/jachio',
 			description:
 				'This is my portfolio website! This frontend app leverages Svelte for reactive components and TailwindCSS for elegant styles. I employ GSAP and vanilla CSS for animations. I created custom SVGs with Affinity Designer.',
 			tags: ['Frontend', 'Svelte', 'Sveltekit', 'TailwindCSS', 'CSS', 'GSAP']
@@ -59,8 +64,8 @@
 	<div class="flex flex-wrap justify-center w-full gap-16">
 		{#each projects as project, i (i)}
 			<Project
-				img={project.img}
 				name={project.name}
+				github_url={project.github_url}
 				id={i}
 				description={project.description}
 				tags={project.tags}
