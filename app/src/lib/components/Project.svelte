@@ -90,7 +90,7 @@
 			</div>
 		{:else}
 			<div class="flex w-full h-full justify-center items-center absolute z-0 project-card-info">
-				<div class="text-xl text-center">{name}</div>
+				<div class="sm:text-3xl text-xl text-center">{name}</div>
 			</div>
 		{/if}
 	</div>
