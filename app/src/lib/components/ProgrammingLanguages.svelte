@@ -8,9 +8,9 @@
 		{ img: 'python-logo-only.png', name: 'Python' },
 		{ img: 'Typescript_logo_2020.svg.png', name: 'TypeScript' },
 		{ img: 'js.png', name: 'JavaScript' },
-		{ img: 'java.png', name: 'Java' },
 		{ img: 'c.svg', name: 'C' },
 		{ img: 'C++_logo.png', name: 'C++' },
+		{ img: 'java.png', name: 'Java' },
 	];
 </script>
 
