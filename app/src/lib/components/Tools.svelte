@@ -3,7 +3,7 @@
 	import UnderlinedText from './UnderlinedText.svelte';
 
 	const experience: { img: string; name: string }[] = [
-		{ img: 'kubernetes.png', name: 'Kubernetes' },
+		{ img: 'kubernetes-logo.png', name: 'Kubernetes' },
 		{ img: 'docker-logo.svg', name: 'Docker' },
 		{ img: 'argocd-logo.png', name: 'ArgoCD' },
 		{ img: 'ansible-logo.png', name: 'Ansible' },
@@ -11,7 +11,10 @@
 	];
 </script>
 
-<div id="InfrastructureTools" class="flex break-words justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10 text-center">
+<div
+	id="InfrastructureTools"
+	class="flex break-words justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10 text-center"
+>
 	<a href="#InfrastructureTools"><UnderlinedText text={'Infrastructure Tools'} /></a>
 </div>
 

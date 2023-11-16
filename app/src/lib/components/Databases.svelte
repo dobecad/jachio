@@ -3,14 +3,17 @@
 	import UnderlinedText from './UnderlinedText.svelte';
 
 	const experience: { img: string; name: string }[] = [
-		{ img: 'logo-mysql.png', name: 'MySQL' },
-		{ img: 'postgresql.svg', name: 'PostgreSQL' },
+		{ img: 'mysql-logo.png', name: 'MySQL' },
+		{ img: 'postgresql-logo.svg', name: 'PostgreSQL' },
 		{ img: 'cockroachdb-logo.png', name: 'CockroachDB' },
 		{ img: 'surrealdb-logo.png', name: 'SurrealDB' }
 	];
 </script>
 
-<div id="Databases" class="flex justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
+<div
+	id="Databases"
+	class="flex justify-center w-full lg:text-8xl text-4xl font-bold sm:pb-20 pb-10"
+>
 	<a href="#Databases"><UnderlinedText text={'Databases'} /></a>
 </div>
 
