@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/analytics": "^1.1.1",
 		"gsap": "^3.12.2"
 	}
 }
