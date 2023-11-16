@@ -35,15 +35,15 @@
 				'The only asynchronous Rust library offering a completely type-safe API for the largest anime and manga database globally. Fully supports all endpoints and query arguments. Complemented with comprehensive documentation, unit tests, and robust CI pipelines.',
 			tags: ['Library', 'Rust', 'Serialization', 'Deserialization', 'REST']
 		},
-		{
-			img: 'BlackHole2.png',
-			name: 'orbitix',
-			url: 'https://github.com/dobecad/orbitix',
-			github: true,
-			description:
-				'A service discovery library using gRPC for building distributed systems, inspired by the Scalable Weakly Consistent Infection-style Process Group Membership (SWIM) protocol. Allows for developers to create applications that can easily discover other nodes within their cluster.',
-			tags: ['Library', 'Rust', 'gRPC', 'SWIM', 'Distributed Systems']
-		},
+		// {
+		// 	img: 'BlackHole2.png',
+		// 	name: 'orbitix',
+		// 	url: 'https://github.com/dobecad/orbitix',
+		// 	github: true,
+		// 	description:
+		// 		'A service discovery library using gRPC for building distributed systems, inspired by the Scalable Weakly Consistent Infection-style Process Group Membership (SWIM) protocol. Allows for developers to create applications that can easily discover other nodes within their cluster.',
+		// 	tags: ['Library', 'Rust', 'gRPC', 'SWIM', 'Distributed Systems']
+		// },
 		{
 			img: 'BlackHole2.png',
 			name: 'compose-validatr',
