@@ -7,7 +7,15 @@
 			name: 'vod-recap',
 			description:
 				'A full-stack, microservice research project for visualizing Twitch and YouTube chat metadata to automatically identify livestream highlights.',
-			tags: ['Python', 'Django', 'FastAPI', 'PostgreSQL', 'JavaScript']
+			tags: [
+				'Full-Stack',
+				'Python',
+				'Django',
+				'FastAPI',
+				'PostgreSQL',
+				'JavaScript',
+				'Data Visualization'
+			]
 		},
 		{
 			img: 'BlackHole2.png',
@@ -40,7 +48,10 @@
 	];
 </script>
 
-<div id="Projects" class="flex break-all justify-center lg:text-8xl text-4xl font-bold sm:pb-20 pb-10">
+<div
+	id="Projects"
+	class="flex break-all justify-center lg:text-8xl text-4xl font-bold sm:pb-20 pb-10"
+>
 	<a href="#Projects"><UnderlinedText text={'Projects'} /></a>
 </div>
 
