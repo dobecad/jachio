@@ -80,6 +80,180 @@
   animation: gradient-rotate 5s linear infinite reverse;
 }
 
+.python-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #FFDE57,
+      #356F9F,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.go-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #74CEDD,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.rust-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #F74C00,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.javascript-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #FFEF57,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.java-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      #F8981D,
+      #5382A1,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.cpp-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      #004481,
+      #669AD3,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.c-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      #344187,
+      #5C6BC0,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.typescript-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #2F78C5,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.docker-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #1D63ED,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.kubernetes-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #326DE6,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.terraform-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #7B42BC,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.ansible-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #1A1918,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.argocd-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #FE733E,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.mysql-card {
+  background: linear-gradient(var(--gradient-angle),
+      #F29111,
+      hsla(0, 0%, 100%, 0.8),
+      #00758F,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.postgresql-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #336791,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.cockroachdb-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      #5F47F5,
+      #7DBC42,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.surrealdb-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #F20CB8,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.aws-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.8),
+      hsla(0, 0%, 100%, 0.1),
+      #FF9900,
+      hsla(0, 0%, 100%, 0.3)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
+.gcp-card {
+  background: linear-gradient(var(--gradient-angle),
+      hsla(0, 0%, 100%, 0.5),
+      #FBBC05,
+      #34A853,
+      #4285F4,
+      #EA4335,
+      hsla(0, 0%, 100%, 0.8)) !important;
+  animation: gradient-rotate 5s linear infinite reverse;
+}
+
 @keyframes gradient-rotate {
   0% {
     --gradient-angle: 360deg;

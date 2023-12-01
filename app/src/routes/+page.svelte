@@ -11,6 +11,7 @@
 	import Tools from '$lib/components/Tools.svelte';
 	import Databases from '$lib/components/Databases.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import CloudProviders from '$lib/components/CloudProviders.svelte';
 </script>
 
 <!-- <Cursor /> -->
@@ -65,12 +66,15 @@
 		<Databases />
 	</section>
 	<section class="pt-40 h-fit">
+		<CloudProviders />
+	</section>
+	<section class="pt-40 h-fit">
 		<History />
 	</section>
 	<section class="pt-40 h-fit">
 		<Education />
 	</section>
-	<div class="pt-40"/>
+	<div class="pt-40" />
 	<footer class="pt-20 pb-10">
 		<Footer />
 	</footer>

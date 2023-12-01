@@ -2,11 +2,11 @@
 	import ExperienceEntry from './ExperienceEntry.svelte';
 	import UnderlinedText from './UnderlinedText.svelte';
 
-	const experience: { img: string; name: string }[] = [
-		{ img: 'mysql-logo.png', name: 'MySQL' },
-		{ img: 'postgresql-logo.svg', name: 'PostgreSQL' },
-		{ img: 'cockroachdb-logo.png', name: 'CockroachDB' },
-		{ img: 'surrealdb-logo.png', name: 'SurrealDB' }
+	const experience: { img: string; name: string; yoe: number }[] = [
+		{ img: 'mysql-logo.png', name: 'MySQL', yoe: 5 },
+		{ img: 'postgresql-logo.svg', name: 'PostgreSQL', yoe: 5 },
+		{ img: 'cockroachdb-logo.png', name: 'CockroachDB', yoe: 2 },
+		{ img: 'surrealdb-logo.png', name: 'SurrealDB', yoe: 1 }
 	];
 </script>
 
@@ -19,6 +19,6 @@
 
 <div class="flex flex-wrap gap-8 w-full justify-center">
 	{#each experience as e}
-		<ExperienceEntry img={e.img} name={e.name} />
+		<ExperienceEntry img={e.img} name={e.name} yoe={e.yoe} />
 	{/each}
 </div>

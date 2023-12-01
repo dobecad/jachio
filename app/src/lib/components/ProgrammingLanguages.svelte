@@ -2,15 +2,15 @@
 	import ExperienceEntry from './ExperienceEntry.svelte';
 	import UnderlinedText from './UnderlinedText.svelte';
 
-	const experience: { img: string; name: string }[] = [
-		{ img: 'rust-logo.svg', name: 'Rust' },
-		{ img: 'go-logo.svg', name: 'Go' },
-		{ img: 'python-logo.png', name: 'Python' },
-		{ img: 'typescript-logo.png', name: 'TypeScript' },
-		{ img: 'js-logo.png', name: 'JavaScript' },
-		{ img: 'c-logo.svg', name: 'C' },
-		{ img: 'C++-logo.png', name: 'C++' },
-		{ img: 'java-logo.png', name: 'Java' }
+	const experience: { img: string; name: string; yoe: number }[] = [
+		{ img: 'python-logo.png', name: 'Python', yoe: 6 },
+		{ img: 'go-logo.svg', name: 'Go', yoe: 2 },
+		{ img: 'rust-logo.svg', name: 'Rust', yoe: 1 },
+		{ img: 'js-logo.png', name: 'JavaScript', yoe: 5 },
+		{ img: 'typescript-logo.png', name: 'TypeScript', yoe: 2 },
+		{ img: 'java-logo.png', name: 'Java', yoe: 3 },
+		{ img: 'C++-logo.png', name: 'Cpp', yoe: 4 },
+		{ img: 'c-logo.svg', name: 'C', yoe: 1 }
 	];
 </script>
 
@@ -23,6 +23,6 @@
 
 <div class="w-full flex flex-wrap justify-center gap-8">
 	{#each experience as e}
-		<ExperienceEntry img={e.img} name={e.name} />
+		<ExperienceEntry img={e.img} name={e.name} yoe={e.yoe} />
 	{/each}
 </div>
