@@ -599,7 +599,7 @@
 			></svg
 		>
 	</div>
-	<div class="text-2xl text-center pt-10 lg:pt-0">
+	<div class="text-2xl text-left pt-10 lg:pt-0">
 		<p class="flex flex-wrap">
 			I am a software engineer with a passion for simplicity. I channel that passion into crafting
 			solutions that are here to make your life a whole lot easier.
