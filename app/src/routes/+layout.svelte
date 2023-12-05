@@ -3,7 +3,7 @@
 	import '@fontsource/chakra-petch';
 </script>
 
-<div class="w-full text-slate-100 font-chakrapetch">
+<div class="w-full text-slate-100">
 	<slot />
 </div>
 
